@@ -1,10 +1,12 @@
 {
     "name": "Gibraltar",
-	"version": "0.7",
+	"version": "0.72",
+	"manifest_version": 2,
 	"icons": {"16": "icon.png", "32": "icon.png", "48": "icon.png", "64": "icon.png", "128": "icon.png" },
 	"description": "Visit The Pirate Bay anywhere in the world.",
     "browser_action": {
 	"default_icon": "icon.png",
-    "popup": "main.html"
+    "default_popup": "main.html",
+    "default_title": "Gibraltar"
     }
 }
